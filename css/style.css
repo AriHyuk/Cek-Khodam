@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url('/assets/images/harimau.jpg'); /* Ganti dengan path ke gambar latar belakang yang diinginkan */
+  background-image: url('../assets/images/harimau.jpg'); /* Ganti dengan path ke gambar latar belakang yang diinginkan */
   background-size: cover;
   background-position: center;
   height: 100vh;
