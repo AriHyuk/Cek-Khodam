@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checker Khodam</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+        <h2>Cek Khodam</h2>
+        <label for="inputText">Masukan Nama Kamu:</label><br>
+        <input type="text" id="inputText" placeholder="Enter your name...">
+        <br>
+        <button onclick="fetchData()">cek</button>
+    </div>
+
+    <!-- Card untuk menampilkan hasil -->
+    <div id="result" class="card" style="display: none;"></div> <!-- Menyesuaikan card untuk hasil -->
+  </div>
+  <script src="js/main.js"></script>
+  </body>
